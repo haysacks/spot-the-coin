@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.spot_the_coin"
+    android:installLocation="auto">
+
+  <uses-feature android:name="android.hardware.camera"/>
+
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+
+  <application
+      android:allowBackup="false"
+      android:icon="@drawable/logo_mlkit"
+      android:label="Spot The Coin"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme"
+      tools:ignore="GoogleAppIndexingWarning">
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version"/>
+
+    <activity
+        android:name=".java.MainActivity"
+        android:exported="true"
+        android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:name=".java.LiveObjectDetectionActivity"
+        android:exported="false"
+        android:screenOrientation="portrait">
+    </activity>
+
+    <activity
+        android:name=".java.StaticObjectDetectionActivity"
+        android:exported="false"
+        android:screenOrientation="portrait">
+    </activity>
+
+    <activity
+        android:name=".java.settings.SettingsActivity"
+        android:exported="false"
+        android:label="@string/settings_title"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light">
+    </activity>
+
+  </application>
+
+</manifest>
+
