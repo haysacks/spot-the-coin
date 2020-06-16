@@ -56,7 +56,7 @@ public abstract class Classifier {
 
   /** The model type used for classification. */
   public enum Model {
-    QUANTIZED_COIN
+    FLOAT_COIN
   }
 
   /** The runtime device type used for executing classification. */
@@ -114,7 +114,7 @@ public abstract class Classifier {
    */
   public static Classifier create(Context context, Model model, Device device, int numThreads)
       throws IOException {
-    if (model == Model.QUANTIZED_COIN) {
+    if (model == Model.FLOAT_COIN) {
       return new ClassifierCoin(context, device, numThreads);
     } else {
       throw new UnsupportedOperationException();

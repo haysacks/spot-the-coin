@@ -16,7 +16,6 @@
 
 package com.spot_the_coin.java;
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Build;
@@ -86,6 +85,7 @@ public class ClassifierHelper extends AppCompatActivity {
       LOGGER.d("Processing image.");
       final List<Recognition> results = classifier.recognizeImage(bitmap, 0);
       lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
+      LOGGER.d("Processing time: %d ms", lastProcessingTimeMs);
       LOGGER.d("Detect: %s", results);
       searchEngine.updateProductList(results).run();
     }

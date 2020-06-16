@@ -90,8 +90,6 @@ public class LiveObjectDetectionActivity extends AppCompatActivity implements On
   private Bitmap objectThumbnailForBottomSheet;
   private boolean slidingSheetUpFromHiddenState;
 
-  private ClassifierHelper classifierHelper = new ClassifierHelper(this, Model.QUANTIZED_COIN, Device.CPU, 1);
-
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);

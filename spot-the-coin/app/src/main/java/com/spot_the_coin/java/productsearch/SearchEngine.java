@@ -61,7 +61,7 @@ public class SearchEngine {
   public SearchEngine(Context context) {
     searchRequestQueue = Volley.newRequestQueue(context);
     requestCreationExecutor = Executors.newSingleThreadExecutor();
-    classifierHelper = new ClassifierHelper(context, Model.QUANTIZED_COIN, Device.CPU, 1);
+    classifierHelper = new ClassifierHelper(context, Model.FLOAT_COIN, Device.GPU, 1);
     this.context = context;
   }
 
