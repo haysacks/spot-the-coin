@@ -17,3 +17,7 @@ This project makes use of the following libraries:
 
 ## Usage
 TBA
+
+## Model and TFLite files
+The files for each of the Keras models (in .h5 and .tflite) can be found in this Drive folder:
+https://drive.google.com/drive/folders/1uIVG9cxRszHczZUMGHf45KZDDmqG0QX1?usp=sharing
