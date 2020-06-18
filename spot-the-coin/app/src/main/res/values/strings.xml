@@ -2,7 +2,7 @@
 <resources>
   <string name="app_name">Spot The Coin</string>
 
-  <string name="mode_odt_live_title">Object Detection: Live Camera</string>
+  <string name="mode_odt_live_title">Live Camera</string>
   <string name="mode_odt_live_subtitle">A device’s live camera can be used to detect objects in an environment.</string>
   <string name="mode_odt_static_title">Object Detection: Static Image</string>
   <string name="mode_odt_static_subtitle">One or more objects can be detected from a provided image.</string>

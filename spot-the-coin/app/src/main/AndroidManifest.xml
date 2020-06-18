@@ -11,7 +11,7 @@
 
   <application
       android:allowBackup="false"
-      android:icon="@drawable/logo_mlkit"
+      android:icon="@mipmap/ic_spot_the_coin"
       android:label="Spot The Coin"
       android:supportsRtl="true"
       android:theme="@style/AppTheme"
