@@ -69,6 +69,8 @@ Our Android application is a modification of the repos [ML Kit Showcase App with
 * Download the config file (google-services.json) from the new added app and move it into the module folder (i.e. [app/](./spot-the-coin/app/))
 * Build and run it on an Android device
 
+The APK build of the app can also be found in [Releases](https://github.com/haysacks/spot-the-coin/releases).
+
 ### Running the website
 TBA
 
