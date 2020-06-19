@@ -7,7 +7,6 @@ build/
 *.apk
 *.aar
 *.zip
-*.tflite
 google-services.json
 
 .project
