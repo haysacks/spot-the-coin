@@ -28,4 +28,22 @@ public class Product {
     this.title = title;
     this.subtitle = subtitle;
   }
+
+  public Product(Product product) {
+      this.imageUrl = product.getImageUrl();
+      this.title = product.getTitle();
+      this.subtitle = product.getSubtitle();
+  }
+
+  public String getImageUrl() {
+    return imageUrl;
+  }
+
+  public String getTitle() {
+    return title;
+  }
+
+  public String getSubtitle() {
+    return subtitle;
+  }
 }

@@ -44,6 +44,7 @@ public class SearchEngine {
 
   private static final String TAG = "SearchEngine";
   private static final Logger LOGGER = new Logger();
+  private static final String FLAG_URL = "https://www.crwflags.com/fotw/images/";
 
   private static ClassifierHelper classifierHelper;
 
@@ -61,7 +62,7 @@ public class SearchEngine {
   public SearchEngine(Context context) {
     searchRequestQueue = Volley.newRequestQueue(context);
     requestCreationExecutor = Executors.newSingleThreadExecutor();
-    classifierHelper = new ClassifierHelper(context, Model.FLOAT_COIN, Device.GPU, 1);
+    classifierHelper = new ClassifierHelper(context, Model.FLOAT_COIN, Device.CPU, 1);
     this.context = context;
   }
 
@@ -113,7 +114,9 @@ public class SearchEngine {
                           String name = details.getString("name");
                           String currency = details.getString("currency");
                           String confidence = String.format("%.2f", (100 * recognition.getConfidence()));
-                          productList.add(new Product(/* imageUrl= */ "", name,
+                          String countryId = details.getString("country_id");
+                          String imageUrl = FLAG_URL + countryId.charAt(0) + "/" + countryId + ".gif";
+                          productList.add(new Product(imageUrl, name,
                                   currency + "\nConfidence: " + confidence + "%"));
                       } catch (JSONException e) {
                           e.printStackTrace();

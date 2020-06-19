@@ -43,9 +43,9 @@ public class ClassifierHelper extends AppCompatActivity {
   private Integer sensorOrientation;
   private Classifier classifier;
   /** Input image size of the model along x axis. */
-  private int imageSizeX = 299;
+  private int imageSizeX = 224;
   /** Input image size of the model along y axis. */
-  private int imageSizeY = 299;
+  private int imageSizeY = 224;
 
   private Context context;
   private Model model;

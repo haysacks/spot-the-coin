@@ -60,6 +60,7 @@ import com.spot_the_coin.java.productsearch.SearchEngine;
 import com.spot_the_coin.java.productsearch.SearchEngine.SearchResultListener;
 import com.spot_the_coin.java.productsearch.SearchedObject;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
@@ -279,8 +280,12 @@ public class StaticObjectDetectionActivity extends AppCompatActivity
   @Override
   public void onSearchCompleted(DetectedObject object, List<Product> productList) {
     Log.d(TAG, "Search completed for object index: " + object.getObjectIndex());
+    List<Product> objectProductList = new ArrayList<>();
+    for(Product product : productList) {
+        objectProductList.add(new Product(product));
+    }
     searchedObjectMap.put(
-        object.getObjectIndex(), new SearchedObject(getResources(), object, productList));
+        object.getObjectIndex(), new SearchedObject(getResources(), object, objectProductList));
     if (searchedObjectMap.size() < detectedObjectNum) {
       // Hold off showing the result until the search of all detected objects completes.
       return;
