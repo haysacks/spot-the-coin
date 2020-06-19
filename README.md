@@ -62,7 +62,7 @@ To perform knowledge distillation to train a student MobileNetV2 model, run `kno
 Our Android application is a modification of the repos [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Bangkit Image Classifier Example](https://github.com/esafirm/bangkit-image-classifier-example). These are the steps to build and run the app:
 * Clone this repo locally
   ```
-  git clone https://github.com/firebase/mlkit-material-android
+  git clone https://github.com/haysacks/spot-the-coin
   ```
 * [Create a Firebase project in the Firebase console, if you don't already have one](https://firebase.google.com/docs/android/setup)
 * Add a new Android app into your Firebase project with package name com.spot_the_coin
