@@ -1,0 +1,2112 @@
+{
+   "1": {
+      "name": "1 Cent",
+      "name_amount": 1,
+      "name_currency": "Cent",
+      "amount": 0.01,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "2": {
+      "name": "2 Cents",
+      "name_amount": 2,
+      "name_currency": "Cents",
+      "amount": 0.02,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "3": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "4": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "5": {
+      "name": "20 Cents",
+      "name_amount": 20,
+      "name_currency": "Cents",
+      "amount": 0.2,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "6": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "7": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "8": {
+      "name": "2 Dollars",
+      "name_amount": 2,
+      "name_currency": "Dollars",
+      "amount": 2,
+      "currency": "Australian Dollar",
+      "currency_id": "AUD",
+      "country": "australia",
+      "country_id": "AU"
+   },
+   "9": {
+      "name": "1 Centavo",
+      "name_amount": 1,
+      "name_currency": "Centavo",
+      "amount": 0.01,
+      "currency": "Brazilian Real",
+      "currency_id": "BRL",
+      "country": "brazil",
+      "country_id": "BR"
+   },
+   "10": {
+      "name": "5 Centavos",
+      "name_amount": 5,
+      "name_currency": "Centavos",
+      "amount": 0.05,
+      "currency": "Brazilian Real",
+      "currency_id": "BRL",
+      "country": "brazil",
+      "country_id": "BR"
+   },
+   "11": {
+      "name": "10 Centavos",
+      "name_amount": 10,
+      "name_currency": "Centavos",
+      "amount": 0.1,
+      "currency": "Brazilian Real",
+      "currency_id": "BRL",
+      "country": "brazil",
+      "country_id": "BR"
+   },
+   "12": {
+      "name": "25 Centavos",
+      "name_amount": 25,
+      "name_currency": "Centavos",
+      "amount": 0.25,
+      "currency": "Brazilian Real",
+      "currency_id": "BRL",
+      "country": "brazil",
+      "country_id": "BR"
+   },
+   "13": {
+      "name": "1 Real",
+      "name_amount": 1,
+      "name_currency": "Real",
+      "amount": 1,
+      "currency": "Brazilian Real",
+      "currency_id": "BRL",
+      "country": "brazil",
+      "country_id": "BR"
+   },
+   "14": {
+      "name": "1 Penny",
+      "name_amount": 1,
+      "name_currency": "Penny",
+      "amount": 0.01,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "15": {
+      "name": "2 Pence",
+      "name_amount": 2,
+      "name_currency": "Pence",
+      "amount": 0.02,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "16": {
+      "name": "5 Pence",
+      "name_amount": 5,
+      "name_currency": "Pence",
+      "amount": 0.05,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "17": {
+      "name": "10 Pence",
+      "name_amount": 10,
+      "name_currency": "Pence",
+      "amount": 0.1,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "18": {
+      "name": "20 Pence",
+      "name_amount": 20,
+      "name_currency": "Pence",
+      "amount": 0.2,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "19": {
+      "name": "50 Pence",
+      "name_amount": 50,
+      "name_currency": "Pence",
+      "amount": 0.5,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "20": {
+      "name": "1 Pound",
+      "name_amount": 1,
+      "name_currency": "Pound",
+      "amount": 1,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "21": {
+      "name": "2 Pounds",
+      "name_amount": 2,
+      "name_currency": "Pounds",
+      "amount": 2,
+      "currency": "British Pound",
+      "currency_id": "GBP",
+      "country": "united_kingdom",
+      "country_id": "GB"
+   },
+   "22": {
+      "name": "1 Cent",
+      "name_amount": 1,
+      "name_currency": "Cent",
+      "amount": 0.01,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "23": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "24": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "25": {
+      "name": "25 Cents",
+      "name_amount": 25,
+      "name_currency": "Cents",
+      "amount": 0.25,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "26": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "27": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "28": {
+      "name": "2 Dollars",
+      "name_amount": 2,
+      "name_currency": "Dollars",
+      "amount": 2,
+      "currency": "Canadian Dollar",
+      "currency_id": "CAD",
+      "country": "canada",
+      "country_id": "CA"
+   },
+   "29": {
+      "name": "1 Peso",
+      "name_amount": 1,
+      "name_currency": "Peso",
+      "amount": 1,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "30": {
+      "name": "5 Pesos",
+      "name_amount": 5,
+      "name_currency": "Pesos",
+      "amount": 5,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "31": {
+      "name": "10 Pesos",
+      "name_amount": 10,
+      "name_currency": "Pesos",
+      "amount": 10,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "32": {
+      "name": "50 Pesos",
+      "name_amount": 50,
+      "name_currency": "Pesos",
+      "amount": 50,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "33": {
+      "name": "100 Pesos",
+      "name_amount": 100,
+      "name_currency": "Pesos",
+      "amount": 100,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "34": {
+      "name": "500 Pesos",
+      "name_amount": 500,
+      "name_currency": "Pesos",
+      "amount": 500,
+      "currency": "Chilean Peso",
+      "currency_id": "CLP",
+      "country": "chile",
+      "country_id": "CL"
+   },
+   "35": {
+      "name": "1 Jiao",
+      "name_amount": 1,
+      "name_currency": "Jiao",
+      "amount": 0.1,
+      "currency": "Chinese Yuan Renminbi",
+      "currency_id": "CNY",
+      "country": "china",
+      "country_id": "CN"
+   },
+   "36": {
+      "name": "5 Jiao",
+      "name_amount": 5,
+      "name_currency": "Jiao",
+      "amount": 0.5,
+      "currency": "Chinese Yuan Renminbi",
+      "currency_id": "CNY",
+      "country": "china",
+      "country_id": "CN"
+   },
+   "37": {
+      "name": "1 Yuan",
+      "name_amount": 1,
+      "name_currency": "Yuan",
+      "amount": 1,
+      "currency": "Chinese Yuan Renminbi",
+      "currency_id": "CNY",
+      "country": "china",
+      "country_id": "CN"
+   },
+   "38": {
+      "name": "10 Hellers",
+      "name_amount": 10,
+      "name_currency": "Hellers",
+      "amount": 0.1,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "39": {
+      "name": "20 Hellers",
+      "name_amount": 20,
+      "name_currency": "Hellers",
+      "amount": 0.2,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "40": {
+      "name": "50 Hellers",
+      "name_amount": 50,
+      "name_currency": "Hellers",
+      "amount": 0.5,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "41": {
+      "name": "1 Koruna",
+      "name_amount": 1,
+      "name_currency": "Koruna",
+      "amount": 1,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "42": {
+      "name": "2 Koruny",
+      "name_amount": 2,
+      "name_currency": "Koruny",
+      "amount": 2,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "43": {
+      "name": "5 Korun",
+      "name_amount": 5,
+      "name_currency": "Korun",
+      "amount": 5,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "44": {
+      "name": "10 Korun",
+      "name_amount": 10,
+      "name_currency": "Korun",
+      "amount": 10,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "45": {
+      "name": "20 Korun",
+      "name_amount": 20,
+      "name_currency": "Korun",
+      "amount": 20,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "46": {
+      "name": "50 Korun",
+      "name_amount": 50,
+      "name_currency": "Korun",
+      "amount": 50,
+      "currency": "Czech Koruna",
+      "currency_id": "CZK",
+      "country": "czech_republic",
+      "country_id": "CZ"
+   },
+   "47": {
+      "name": "25 Ore",
+      "name_amount": 25,
+      "name_currency": "Ore",
+      "amount": 0.25,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "48": {
+      "name": "50 Ore",
+      "name_amount": 50,
+      "name_currency": "Ore",
+      "amount": 0.5,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "49": {
+      "name": "1 Krone",
+      "name_amount": 1,
+      "name_currency": "Krone",
+      "amount": 1,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "50": {
+      "name": "2 Kroner",
+      "name_amount": 2,
+      "name_currency": "Kroner",
+      "amount": 2,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "51": {
+      "name": "5 Kroner",
+      "name_amount": 5,
+      "name_currency": "Kroner",
+      "amount": 5,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "52": {
+      "name": "10 Kroner",
+      "name_amount": 10,
+      "name_currency": "Kroner",
+      "amount": 10,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "53": {
+      "name": "20 Kroner",
+      "name_amount": 20,
+      "name_currency": "Kroner",
+      "amount": 20,
+      "currency": "Danish Krone",
+      "currency_id": "DKK",
+      "country": "denmark",
+      "country_id": "DK"
+   },
+   "54": {
+      "name": "1 Euro Cent",
+      "name_amount": 1,
+      "name_currency": "Euro",
+      "amount": 1,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "55": {
+      "name": "2 Euro Cent",
+      "name_amount": 2,
+      "name_currency": "Euro",
+      "amount": 2,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "56": {
+      "name": "5 Euro Cent",
+      "name_amount": 5,
+      "name_currency": "Euro",
+      "amount": 5,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "57": {
+      "name": "10 Euro Cent",
+      "name_amount": 10,
+      "name_currency": "Euro",
+      "amount": 10,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "58": {
+      "name": "20 Euro Cent",
+      "name_amount": 20,
+      "name_currency": "Euro",
+      "amount": 20,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "59": {
+      "name": "50 Euro Cent",
+      "name_amount": 50,
+      "name_currency": "Euro",
+      "amount": 50,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "60": {
+      "name": "1 Euro",
+      "name_amount": 1,
+      "name_currency": "Euro",
+      "amount": 1,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "61": {
+      "name": "2 Euro",
+      "name_amount": 2,
+      "name_currency": "Euro",
+      "amount": 2,
+      "currency": "Euro",
+      "currency_id": "EUR",
+      "country": "spain",
+      "country_id": "EU"
+   },
+   "62": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "Hong Kong Dollar",
+      "currency_id": "HKD",
+      "country": "hong_kong",
+      "country_id": "HK"
+   },
+   "63": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "Hong Kong Dollar",
+      "currency_id": "HKD",
+      "country": "hong_kong",
+      "country_id": "HK"
+   },
+   "64": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Hong Kong Dollar",
+      "currency_id": "HKD",
+      "country": "hong_kong",
+      "country_id": "HK"
+   },
+   "65": {
+      "name": "2 Dollars",
+      "name_amount": 2,
+      "name_currency": "Dollars",
+      "amount": 2,
+      "currency": "Hong Kong Dollar",
+      "currency_id": "HKD",
+      "country": "hong_kong",
+      "country_id": "HK"
+   },
+   "66": {
+      "name": "5 Dollars",
+      "name_amount": 5,
+      "name_currency": "Dollars",
+      "amount": 5,
+      "currency": "Hong Kong Dollar",
+      "currency_id": "HKD",
+      "country": "hong_kong",
+      "country_id": "HK"
+   },
+   "67": {
+      "name": "1 Forint",
+      "name_amount": 1,
+      "name_currency": "Forint",
+      "amount": 1,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "68": {
+      "name": "2 Forint",
+      "name_amount": 2,
+      "name_currency": "Forint",
+      "amount": 2,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "69": {
+      "name": "5 Forint",
+      "name_amount": 5,
+      "name_currency": "Forint",
+      "amount": 5,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "70": {
+      "name": "10 Forint",
+      "name_amount": 10,
+      "name_currency": "Forint",
+      "amount": 10,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "71": {
+      "name": "20 Forint",
+      "name_amount": 20,
+      "name_currency": "Forint",
+      "amount": 20,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "72": {
+      "name": "50 Forint",
+      "name_amount": 50,
+      "name_currency": "Forint",
+      "amount": 50,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "73": {
+      "name": "100 Forint",
+      "name_amount": 100,
+      "name_currency": "Forint",
+      "amount": 100,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "74": {
+      "name": "200 Forint",
+      "name_amount": 200,
+      "name_currency": "Forint",
+      "amount": 200,
+      "currency": "Hungarian Forint",
+      "currency_id": "HUF",
+      "country": "hungary",
+      "country_id": "HU"
+   },
+   "75": {
+      "name": "25 Paise",
+      "name_amount": 25,
+      "name_currency": "Paise",
+      "amount": 0.25,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "76": {
+      "name": "50 Paise",
+      "name_amount": 50,
+      "name_currency": "Paise",
+      "amount": 0.5,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "77": {
+      "name": "1 Rupee",
+      "name_amount": 1,
+      "name_currency": "Rupee",
+      "amount": 1,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "78": {
+      "name": "2 Rupees",
+      "name_amount": 2,
+      "name_currency": "Rupees",
+      "amount": 2,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "79": {
+      "name": "5 Rupees",
+      "name_amount": 5,
+      "name_currency": "Rupees",
+      "amount": 5,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "80": {
+      "name": "10 Rupees",
+      "name_amount": 10,
+      "name_currency": "Rupees",
+      "amount": 10,
+      "currency": "Indian Rupee",
+      "currency_id": "INR",
+      "country": "india",
+      "country_id": "IN"
+   },
+   "81": {
+      "name": "50 Rupiah",
+      "name_amount": 50,
+      "name_currency": "Rupiah",
+      "amount": 50,
+      "currency": "Indonesian Rupiah",
+      "currency_id": "IDR",
+      "country": "indonesia",
+      "country_id": "ID"
+   },
+   "82": {
+      "name": "100 Rupiah",
+      "name_amount": 100,
+      "name_currency": "Rupiah",
+      "amount": 100,
+      "currency": "Indonesian Rupiah",
+      "currency_id": "IDR",
+      "country": "indonesia",
+      "country_id": "ID"
+   },
+   "83": {
+      "name": "200 Rupiah",
+      "name_amount": 200,
+      "name_currency": "Rupiah",
+      "amount": 200,
+      "currency": "Indonesian Rupiah",
+      "currency_id": "IDR",
+      "country": "indonesia",
+      "country_id": "ID"
+   },
+   "84": {
+      "name": "500 Rupiah",
+      "name_amount": 500,
+      "name_currency": "Rupiah",
+      "amount": 500,
+      "currency": "Indonesian Rupiah",
+      "currency_id": "IDR",
+      "country": "indonesia",
+      "country_id": "ID"
+   },
+   "85": {
+      "name": "1000 Rupiah",
+      "name_amount": 1000,
+      "name_currency": "Rupiah",
+      "amount": 1000,
+      "currency": "Indonesian Rupiah",
+      "currency_id": "IDR",
+      "country": "indonesia",
+      "country_id": "ID"
+   },
+   "86": {
+      "name": "5 Agorot",
+      "name_amount": 5,
+      "name_currency": "Agorot",
+      "amount": 0.05,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "87": {
+      "name": "10 Agorot",
+      "name_amount": 10,
+      "name_currency": "Agorot",
+      "amount": 0.1,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "88": {
+      "name": "1 New Sheqel",
+      "name_amount": 1,
+      "name_currency": "New Sheqel",
+      "amount": 1,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "89": {
+      "name": "1 New Sheqel",
+      "name_amount": 1,
+      "name_currency": "New Sheqel",
+      "amount": 1,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "90": {
+      "name": "2 New Sheqalim",
+      "name_amount": 2,
+      "name_currency": "New Sheqel",
+      "amount": 2,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "91": {
+      "name": "5 New Sheqalim",
+      "name_amount": 5,
+      "name_currency": "New Sheqel",
+      "amount": 5,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "92": {
+      "name": "10 New Sheqalim",
+      "name_amount": 10,
+      "name_currency": "New Sheqel",
+      "amount": 10,
+      "currency": "Israeli New Shekel",
+      "currency_id": "ILS",
+      "country": "israel",
+      "country_id": "IL"
+   },
+   "93": {
+      "name": "1 Yen",
+      "name_amount": 1,
+      "name_currency": "Yen",
+      "amount": 1,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "94": {
+      "name": "5 Yen",
+      "name_amount": 5,
+      "name_currency": "Yen",
+      "amount": 5,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "95": {
+      "name": "10 Yen",
+      "name_amount": 10,
+      "name_currency": "Yen",
+      "amount": 10,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "96": {
+      "name": "50 Yen",
+      "name_amount": 50,
+      "name_currency": "Yen",
+      "amount": 50,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "97": {
+      "name": "100 Yen",
+      "name_amount": 100,
+      "name_currency": "Yen",
+      "amount": 100,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "98": {
+      "name": "500 Yen",
+      "name_amount": 500,
+      "name_currency": "Yen",
+      "amount": 500,
+      "currency": "Japanese Yen",
+      "currency_id": "JPY",
+      "country": "japan",
+      "country_id": "JP"
+   },
+   "99": {
+      "name": "1 Won",
+      "name_amount": 1,
+      "name_currency": "Won",
+      "amount": 1,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "100": {
+      "name": "5 Won",
+      "name_amount": 5,
+      "name_currency": "Won",
+      "amount": 5,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "101": {
+      "name": "10 Won",
+      "name_amount": 10,
+      "name_currency": "Won",
+      "amount": 10,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "102": {
+      "name": "50 Won",
+      "name_amount": 50,
+      "name_currency": "Won",
+      "amount": 50,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "103": {
+      "name": "100 Won",
+      "name_amount": 100,
+      "name_currency": "Won",
+      "amount": 100,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "104": {
+      "name": "500 Won",
+      "name_amount": 500,
+      "name_currency": "Won",
+      "amount": 500,
+      "currency": "Korean Won",
+      "currency_id": "KRW",
+      "country": "south_korea",
+      "country_id": "KR"
+   },
+   "105": {
+      "name": "1 Sen",
+      "name_amount": 1,
+      "name_currency": "Sen",
+      "amount": 1,
+      "currency": "Malaysian Ringgit",
+      "currency_id": "MYR",
+      "country": "malaysia",
+      "country_id": "MY"
+   },
+   "106": {
+      "name": "5 Sen",
+      "name_amount": 5,
+      "name_currency": "Sen",
+      "amount": 5,
+      "currency": "Malaysian Ringgit",
+      "currency_id": "MYR",
+      "country": "malaysia",
+      "country_id": "MY"
+   },
+   "107": {
+      "name": "10 Sen",
+      "name_amount": 10,
+      "name_currency": "Sen",
+      "amount": 10,
+      "currency": "Malaysian Ringgit",
+      "currency_id": "MYR",
+      "country": "malaysia",
+      "country_id": "MY"
+   },
+   "108": {
+      "name": "20 Sen",
+      "name_amount": 20,
+      "name_currency": "Sen",
+      "amount": 20,
+      "currency": "Malaysian Ringgit",
+      "currency_id": "MYR",
+      "country": "malaysia",
+      "country_id": "MY"
+   },
+   "109": {
+      "name": "50 Sen",
+      "name_amount": 50,
+      "name_currency": "Sen",
+      "amount": 50,
+      "currency": "Malaysian Ringgit",
+      "currency_id": "MYR",
+      "country": "malaysia",
+      "country_id": "MY"
+   },
+   "110": {
+      "name": "5 Centavos",
+      "name_amount": 5,
+      "name_currency": "Centavos",
+      "amount": 0.05,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "111": {
+      "name": "10 Centavos",
+      "name_amount": 10,
+      "name_currency": "Centavos",
+      "amount": 0.1,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "112": {
+      "name": "20 Centavos",
+      "name_amount": 20,
+      "name_currency": "Centavos",
+      "amount": 0.2,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "113": {
+      "name": "50 Centavos",
+      "name_amount": 50,
+      "name_currency": "Centavos",
+      "amount": 0.5,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "114": {
+      "name": "1 Peso",
+      "name_amount": 1,
+      "name_currency": "Peso",
+      "amount": 1,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "115": {
+      "name": "2 Pesos",
+      "name_amount": 2,
+      "name_currency": "Pesos",
+      "amount": 2,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "116": {
+      "name": "5 Pesos",
+      "name_amount": 5,
+      "name_currency": "Pesos",
+      "amount": 5,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "117": {
+      "name": "10 Pesos",
+      "name_amount": 10,
+      "name_currency": "Pesos",
+      "amount": 10,
+      "currency": "Mexican Peso",
+      "currency_id": "MXN",
+      "country": "mexico",
+      "country_id": "MX"
+   },
+   "118": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "119": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "120": {
+      "name": "20 Cents",
+      "name_amount": 20,
+      "name_currency": "Cents",
+      "amount": 0.2,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "121": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "122": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "123": {
+      "name": "2 Dollars",
+      "name_amount": 2,
+      "name_currency": "Dollars",
+      "amount": 2,
+      "currency": "New Zealand Dollar",
+      "currency_id": "NZD",
+      "country": "new_zealand",
+      "country_id": "NZ"
+   },
+   "124": {
+      "name": "50 Ore",
+      "name_amount": 50,
+      "name_currency": "Ore",
+      "amount": 0.5,
+      "currency": "Norwegian Krone",
+      "currency_id": "NOK",
+      "country": "norway",
+      "country_id": "NO"
+   },
+   "125": {
+      "name": "1 Krone",
+      "name_amount": 1,
+      "name_currency": "Krone",
+      "amount": 1,
+      "currency": "Norwegian Krone",
+      "currency_id": "NOK",
+      "country": "norway",
+      "country_id": "NO"
+   },
+   "126": {
+      "name": "5 Kroner",
+      "name_amount": 5,
+      "name_currency": "Kroner",
+      "amount": 5,
+      "currency": "Norwegian Krone",
+      "currency_id": "NOK",
+      "country": "norway",
+      "country_id": "NO"
+   },
+   "127": {
+      "name": "10 Kroner",
+      "name_amount": 10,
+      "name_currency": "Kroner",
+      "amount": 10,
+      "currency": "Norwegian Krone",
+      "currency_id": "NOK",
+      "country": "norway",
+      "country_id": "NO"
+   },
+   "128": {
+      "name": "20 Kroner",
+      "name_amount": 20,
+      "name_currency": "Kroner",
+      "amount": 20,
+      "currency": "Norwegian Krone",
+      "currency_id": "NOK",
+      "country": "norway",
+      "country_id": "NO"
+   },
+   "129": {
+      "name": "1 Rupee",
+      "name_amount": 1,
+      "name_currency": "Rupee",
+      "amount": 1,
+      "currency": "Pakistan Rupee",
+      "currency_id": "PKR",
+      "country": "pakistan",
+      "country_id": "PK"
+   },
+   "130": {
+      "name": "2 Rupees",
+      "name_amount": 2,
+      "name_currency": "Rupees",
+      "amount": 2,
+      "currency": "Pakistan Rupee",
+      "currency_id": "PKR",
+      "country": "pakistan",
+      "country_id": "PK"
+   },
+   "131": {
+      "name": "5 Rupees",
+      "name_amount": 5,
+      "name_currency": "Rupees",
+      "amount": 5,
+      "currency": "Pakistan Rupee",
+      "currency_id": "PKR",
+      "country": "pakistan",
+      "country_id": "PK"
+   },
+   "132": {
+      "name": "10 Rupees",
+      "name_amount": 10,
+      "name_currency": "Rupees",
+      "amount": 10,
+      "currency": "Pakistan Rupee",
+      "currency_id": "PKR",
+      "country": "pakistan",
+      "country_id": "PK"
+   },
+   "133": {
+      "name": "1 Sentimo",
+      "name_amount": 1,
+      "name_currency": "Sentimo",
+      "amount": 0.01,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "134": {
+      "name": "5 Sentimos",
+      "name_amount": 5,
+      "name_currency": "Sentimos",
+      "amount": 0.05,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "135": {
+      "name": "10 Sentimos",
+      "name_amount": 10,
+      "name_currency": "Sentimos",
+      "amount": 0.1,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "136": {
+      "name": "25 Sentimos",
+      "name_amount": 25,
+      "name_currency": "Sentimos",
+      "amount": 0.25,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "137": {
+      "name": "1 Piso",
+      "name_amount": 1,
+      "name_currency": "Piso",
+      "amount": 1,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "138": {
+      "name": "5 Piso",
+      "name_amount": 5,
+      "name_currency": "Piso",
+      "amount": 5,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "139": {
+      "name": "10 Piso",
+      "name_amount": 10,
+      "name_currency": "Piso",
+      "amount": 10,
+      "currency": "Philipine Peso",
+      "currency_id": "PHP",
+      "country": "philippines",
+      "country_id": "PH"
+   },
+   "140": {
+      "name": "1 Grosz",
+      "name_amount": 1,
+      "name_currency": "Grosz",
+      "amount": 0.01,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "141": {
+      "name": "2 Grosze",
+      "name_amount": 2,
+      "name_currency": "Grosze",
+      "amount": 0.02,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "142": {
+      "name": "5 Groszy",
+      "name_amount": 5,
+      "name_currency": "Groszy",
+      "amount": 0.05,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "143": {
+      "name": "10 Groszy",
+      "name_amount": 10,
+      "name_currency": "Groszy",
+      "amount": 0.1,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "144": {
+      "name": "20 Groszy",
+      "name_amount": 20,
+      "name_currency": "Groszy",
+      "amount": 0.2,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "145": {
+      "name": "50 Groszy",
+      "name_amount": 50,
+      "name_currency": "Groszy",
+      "amount": 0.5,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "146": {
+      "name": "1 Zloty",
+      "name_amount": 1,
+      "name_currency": "Zloty",
+      "amount": 1,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "147": {
+      "name": "2 Zlote",
+      "name_amount": 2,
+      "name_currency": "Zlote",
+      "amount": 2,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "148": {
+      "name": "5 Zlotych",
+      "name_amount": 5,
+      "name_currency": "Zlotych",
+      "amount": 5,
+      "currency": "Polish Zloty",
+      "currency_id": "PLN",
+      "country": "poland",
+      "country_id": "PL"
+   },
+   "149": {
+      "name": "1 Kopek",
+      "name_amount": 1,
+      "name_currency": "Kopek",
+      "amount": 0.01,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "150": {
+      "name": "5 Kopeks",
+      "name_amount": 5,
+      "name_currency": "Kopeks",
+      "amount": 0.05,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "151": {
+      "name": "10 Kopeks",
+      "name_amount": 10,
+      "name_currency": "Kopeks",
+      "amount": 0.1,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "152": {
+      "name": "50 Kopeks",
+      "name_amount": 50,
+      "name_currency": "Kopeks",
+      "amount": 0.5,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "153": {
+      "name": "1 Ruble",
+      "name_amount": 1,
+      "name_currency": "Ruble",
+      "amount": 1,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "154": {
+      "name": "2 Rubles",
+      "name_amount": 2,
+      "name_currency": "Rubles",
+      "amount": 2,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "155": {
+      "name": "5 Rubles",
+      "name_amount": 5,
+      "name_currency": "Rubles",
+      "amount": 5,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "156": {
+      "name": "10 Rubles",
+      "name_amount": 10,
+      "name_currency": "Rubles",
+      "amount": 10,
+      "currency": "Russian Ruble",
+      "currency_id": "RUB",
+      "country": "russia",
+      "country_id": "RU"
+   },
+   "157": {
+      "name": "1 Cent",
+      "name_amount": 1,
+      "name_currency": "Cent",
+      "amount": 0.01,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "158": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "159": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "160": {
+      "name": "20 Cents",
+      "name_amount": 20,
+      "name_currency": "Cents",
+      "amount": 0.2,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "161": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "162": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "163": {
+      "name": "5 Dollars",
+      "name_amount": 5,
+      "name_currency": "Dollars",
+      "amount": 5,
+      "currency": "Singapore Dollar",
+      "currency_id": "SGD",
+      "country": "singapore",
+      "country_id": "SG"
+   },
+   "164": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "165": {
+      "name": "10 Cents",
+      "name_amount": 10,
+      "name_currency": "Cents",
+      "amount": 0.1,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "166": {
+      "name": "20 Cents",
+      "name_amount": 20,
+      "name_currency": "Cents",
+      "amount": 0.2,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "167": {
+      "name": "50 Cents",
+      "name_amount": 50,
+      "name_currency": "Cents",
+      "amount": 0.5,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "168": {
+      "name": "1 Rand",
+      "name_amount": 1,
+      "name_currency": "Rand",
+      "amount": 1,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "169": {
+      "name": "2 Rand",
+      "name_amount": 2,
+      "name_currency": "Rand",
+      "amount": 2,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "170": {
+      "name": "5 Rand",
+      "name_amount": 5,
+      "name_currency": "Rand",
+      "amount": 5,
+      "currency": "South African Rand",
+      "currency_id": "ZAR",
+      "country": "south_africa",
+      "country_id": "ZA"
+   },
+   "171": {
+      "name": "10 Ore",
+      "name_amount": 10,
+      "name_currency": "Ore",
+      "amount": 0.1,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "172": {
+      "name": "50 Ore",
+      "name_amount": 50,
+      "name_currency": "Ore",
+      "amount": 0.5,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "173": {
+      "name": "1 Krona",
+      "name_amount": 1,
+      "name_currency": "Krona",
+      "amount": 1,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "174": {
+      "name": "2 Kronor",
+      "name_amount": 2,
+      "name_currency": "Kronor",
+      "amount": 2,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "175": {
+      "name": "5 Kronor",
+      "name_amount": 5,
+      "name_currency": "Kronor",
+      "amount": 5,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "176": {
+      "name": "10 Kronor",
+      "name_amount": 10,
+      "name_currency": "Kronor",
+      "amount": 10,
+      "currency": "Swedish Krona",
+      "currency_id": "SEK",
+      "country": "sweden",
+      "country_id": "SE"
+   },
+   "177": {
+      "name": "1 Rappen",
+      "name_amount": 1,
+      "name_currency": "Rappen",
+      "amount": 0.01,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "178": {
+      "name": "5 Rappen",
+      "name_amount": 5,
+      "name_currency": "Rappen",
+      "amount": 0.05,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "179": {
+      "name": "10 Rappen",
+      "name_amount": 10,
+      "name_currency": "Rappen",
+      "amount": 0.1,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "180": {
+      "name": "20 Rappen",
+      "name_amount": 20,
+      "name_currency": "Rappen",
+      "amount": 0.2,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "181": {
+      "name": "1 2 Franc",
+      "name_amount": 1,
+      "name_currency": "Franc",
+      "amount": 1,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "182": {
+      "name": "1 Franc",
+      "name_amount": 1,
+      "name_currency": "Franc",
+      "amount": 1,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "183": {
+      "name": "2 Francs",
+      "name_amount": 2,
+      "name_currency": "Francs",
+      "amount": 2,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "184": {
+      "name": "5 Francs",
+      "name_amount": 5,
+      "name_currency": "Francs",
+      "amount": 5,
+      "currency": "Swiss Franc",
+      "currency_id": "CHF",
+      "country": "switzerland",
+      "country_id": "CH"
+   },
+   "185": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "186": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "187": {
+      "name": "5 Dollars",
+      "name_amount": 5,
+      "name_currency": "Dollars",
+      "amount": 5,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "188": {
+      "name": "10 Dollars",
+      "name_amount": 10,
+      "name_currency": "Dollars",
+      "amount": 10,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "189": {
+      "name": "20 Dollars",
+      "name_amount": 20,
+      "name_currency": "Dollars",
+      "amount": 20,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "190": {
+      "name": "50 Dollars",
+      "name_amount": 50,
+      "name_currency": "Dollars",
+      "amount": 50,
+      "currency": "Taiwan Dollar",
+      "currency_id": "TWD",
+      "country": "taiwan",
+      "country_id": "TW"
+   },
+   "191": {
+      "name": "1 Satang",
+      "name_amount": 1,
+      "name_currency": "Satang",
+      "amount": 0.01,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "192": {
+      "name": "5 Satang",
+      "name_amount": 5,
+      "name_currency": "Satang",
+      "amount": 0.05,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "193": {
+      "name": "10 Satang",
+      "name_amount": 10,
+      "name_currency": "Satang",
+      "amount": 0.1,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "194": {
+      "name": "25 Satang",
+      "name_amount": 25,
+      "name_currency": "Satang",
+      "amount": 0.25,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "195": {
+      "name": "50 Satang",
+      "name_amount": 50,
+      "name_currency": "Satang",
+      "amount": 0.5,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "196": {
+      "name": "1 Baht",
+      "name_amount": 1,
+      "name_currency": "Baht",
+      "amount": 1,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "197": {
+      "name": "2 Baht",
+      "name_amount": 2,
+      "name_currency": "Baht",
+      "amount": 2,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "198": {
+      "name": "5 Baht",
+      "name_amount": 5,
+      "name_currency": "Baht",
+      "amount": 5,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "199": {
+      "name": "10 Baht",
+      "name_amount": 10,
+      "name_currency": "Baht",
+      "amount": 10,
+      "currency": "Thai Baht",
+      "currency_id": "THB",
+      "country": "thailand",
+      "country_id": "TH"
+   },
+   "200": {
+      "name": "1 Kurus",
+      "name_amount": 1,
+      "name_currency": "Kurus",
+      "amount": 0.01,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "201": {
+      "name": "5 Kurus",
+      "name_amount": 5,
+      "name_currency": "Kurus",
+      "amount": 0.05,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "202": {
+      "name": "10 Kurus",
+      "name_amount": 10,
+      "name_currency": "Kurus",
+      "amount": 0.1,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "203": {
+      "name": "25 Kurus",
+      "name_amount": 25,
+      "name_currency": "Kurus",
+      "amount": 0.25,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "204": {
+      "name": "50 Kurus",
+      "name_amount": 50,
+      "name_currency": "Kurus",
+      "amount": 0.5,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "205": {
+      "name": "1 Lira",
+      "name_amount": 1,
+      "name_currency": "Lira",
+      "amount": 1,
+      "currency": "Turkish Lira",
+      "currency_id": "TRY",
+      "country": "turkey",
+      "country_id": "TR"
+   },
+   "206": {
+      "name": "1 Cent",
+      "name_amount": 1,
+      "name_currency": "Cent",
+      "amount": 0.01,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   },
+   "207": {
+      "name": "5 Cents",
+      "name_amount": 5,
+      "name_currency": "Cents",
+      "amount": 0.05,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   },
+   "208": {
+      "name": "1 Dime",
+      "name_amount": 1,
+      "name_currency": "Dime",
+      "amount": 0.1,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   },
+   "209": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   },
+   "210": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   },
+   "211": {
+      "name": "1 Dollar",
+      "name_amount": 1,
+      "name_currency": "Dollar",
+      "amount": 1,
+      "currency": "US Dollar",
+      "currency_id": "USD",
+      "country": "usa",
+      "country_id": "US"
+   }
+}
