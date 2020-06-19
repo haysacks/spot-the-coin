@@ -1,6 +1,6 @@
 # Spot The Coin (World Coin Classification)
 
-This repository makes use of the image dataset provided in: https://www.kaggle.com/wanderdust/coin-images and acts as completion for the Final Assignment of Bangkit Academy.
+This repository makes use of the image dataset provided in: https://www.kaggle.com/wanderdust/coin-images and acts as completion for the Final Assignment of Bangkit Academy from Group JKT2-A.
 
 We use the images provided in the dataset to train a CNN to classify coin images based on their currency and values.
 
@@ -22,7 +22,7 @@ This project aims to improve the accuracy of a MobileNetV2 model through knowled
 * Xception model with bilinear pooling
 * InceptionV3 model
 
-The bilinear Xception model is an implementation of a bilinear model, which consists of 2 feature extractors whose outputs are multiplied using outer product at each location of the image and pooled to obtain an image descriptor [2]. The features here are extracted from a single Xception model, unlike the usual implementation extracting features from 2 CNN models. The bilinear CNN, with its orderless pooling, is said to perform well for fine-grained visual recognition where intra-category differences are small; this fits our dataset quite well. However, our bilinear Xception model did not outperform the normal Xception model, but we still included it in the ensemble, as there are some results from the testing dataset where the former predicted correctly when the latter failed to do so, and vice versa.
+The bilinear Xception model is an implementation of a bilinear model, which consists of 2 feature extractors whose outputs are multiplied using outer product at each location of the image and pooled to obtain an image descriptor [2]. The features here are extracted from a single Xception model, unlike the usual implementation extracting features from 2 CNN models. The bilinear CNN, with its orderless pooling, is said to perform well for fine-grained visual recognition where intra-category differences are small; this description fits our dataset quite well. However, our bilinear Xception model did not outperform the normal Xception model, but we still included it in the ensemble, as there are some results from the testing dataset where the former predicted correctly when the latter failed to do so, and vice versa.
 
 Using the ensemble model, we manage to obtain a higher accuracy than each of the above models, as illustrated in the following table:
 | Model             | Training Accuracy | Validation Accuracy | Testing Accuracy |
