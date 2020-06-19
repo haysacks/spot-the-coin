@@ -32,7 +32,7 @@ Using the ensemble model, we manage to obtain a higher accuracy than each of the
 | InceptionV3       | 0.970             | 0.834               | 0.857            |
 | Ensemble          | 0.985             | 0.853               | 0.880            |
 
-Knowledge distillation involves "softening" the logits (class probabilities) of the teacher model by dividing them with a temperature $`T`$, usually ranging from 1 to 20. A higher temperature will magnify the incorrect class probability values, which serves as additional information for the student model to identify which incorrect classes are similar or different from the correct class predicted by the teacher model. This information is also dubbed as "dark knowledge". For our student model training, we experiment with $`T \in (3, 5, 10)`$ and find $`T = 5`$ to yield the best results, which are illustrated below:
+Knowledge distillation involves "softening" the logits (class probabilities) of the teacher model by dividing them with a temperature ![formula](https://render.githubusercontent.com/render/math?math=T), usually ranging from 1 to 20. A higher temperature will magnify the incorrect class probability values, which serves as additional information for the student model to identify which incorrect classes are similar or different from the correct class predicted by the teacher model. This information is also dubbed as "dark knowledge". For our student model training, we experiment with ![formula](https://render.githubusercontent.com/render/math?math=T%20\in%20(3,%205,%2010)) and find ![formula](https://render.githubusercontent.com/render/math?math=T=5) to yield the best results, which are illustrated below:
 | Model                              | Training Accuracy | Validation Accuracy | Testing Accuracy |
 | :--------------------------------: | :---------------: | :-----------------: | :--------------: |
 | Teacher - Ensemble                 | 0.985             | 0.853               | 0.880            |
@@ -70,4 +70,5 @@ https://drive.google.com/drive/folders/1ObSUM7Yn11DGDR3IHNIZiFvY04LSnXns?usp=sha
 
 ## References
 [1] Geoffrey Hinton, Oriol Vinyals and Jeff Dean. Distilling the Knowledge in a Neural Network. [arxiv:1503.02531](https://arxiv.org/abs/1503.02531)
+
 [2] Tsung-Yu Lin, Aruni RoyChowdhury, and Subhransu Maji. Bilinear CNNs for Fine-grained Visual Recognition. [arxiv:1504.07889](https://arxiv.org/abs/1504.07889)
