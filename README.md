@@ -32,7 +32,7 @@ Using the ensemble model, we manage to obtain a higher accuracy than each of the
 | InceptionV3       | 0.970             | 0.834               | 0.857            |
 | Ensemble          | 0.985             | 0.853               | 0.880            |
 
-Knowledge distillation involves "softening" the logits (class probabilities) of the teacher model by dividing them with a temperature ![formula](https://render.githubusercontent.com/render/math?math=T), usually ranging from 1 to 20. A higher temperature will magnify the incorrect class probability values, which serves as additional information for the student model to identify which incorrect classes are similar or different from the correct class predicted by the teacher model. This information is also dubbed as "dark knowledge". For our student model training, we experiment with ![formula](https://render.githubusercontent.com/render/math?math=T%20\in%20(3,%205,%2010)) and find ![formula](https://render.githubusercontent.com/render/math?math=T=5) to yield the best results, which are illustrated below:
+Knowledge distillation involves "softening" the logits (class probabilities) of the teacher model by dividing them with a temperature ![formula](https://render.githubusercontent.com/render/math?math=T), usually ranging from 1 to 20. A higher temperature will magnify the incorrect class probability values, which serve as additional information for the student model to identify which incorrect classes are similar or different from the correct class predicted by the teacher model. This information is also dubbed as "dark knowledge". For our student model training, we experiment with ![formula](https://render.githubusercontent.com/render/math?math=T%20\in%20(3,%205,%2010)) and find ![formula](https://render.githubusercontent.com/render/math?math=T=5) to yield the best results, which are illustrated below:
 | Model                              | Training Accuracy | Validation Accuracy | Testing Accuracy |
 | :--------------------------------: | :---------------: | :-----------------: | :--------------: |
 | Teacher - Ensemble                 | 0.985             | 0.853               | 0.880            |
@@ -54,9 +54,9 @@ First, train the 3 models which form the ensemble by running `xception_model.ipy
 The ensemble model that is based on the average prediction of these 3 models can be built by running `ensemble_model.ipynb` in the folder `models`. The variable `model_path` is to be defined as the path of the folder which contains the 3 models above.
 
 #### Knowledge distillation
-The performance of the base MobileNetV2 model without knowledge distillation can be asssessed by running `mobilenet_model.ipynb` in the folder `knowledge_distillation`, which will train a MobileNetV2 model from scratch.
+The performance of the base MobileNetV2 model without knowledge distillation can be asssessed by running `mobilenet_model.ipynb` in the folder `knowledge-distillation`, which will train a MobileNetV2 model from scratch.
 
-To perform knowledge distillation to train a student MobileNetV2 model, run `knowledge_distillation.ipynb` in the folder `knowledge_distillation`. The variable `teacher_model_path` is to be defined as the path of the pre-trained ensemble model from before.
+To perform knowledge distillation to train a student MobileNetV2 model, run `knowledge_distillation.ipynb` in the folder `knowledge-distillation`. The variable `teacher_model_path` is to be defined as the path of the pre-trained ensemble model from before.
 
 ### Running the Android application
 Our Android application is a modification of the repos [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Bangkit Image Classifier Example](https://github.com/esafirm/bangkit-image-classifier-example). These are the steps to build and run the app:
