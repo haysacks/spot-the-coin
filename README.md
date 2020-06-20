@@ -79,6 +79,7 @@ We develop the web application using [Dash Plotly](https://plotly.com/dash/) and
   git clone https://github.com/haysacks/spot-the-coin
   ```
 * Access the folder `web-app` and install all the required library in the `requirements.txt` using `pip install -r requirements.txt`.
+
   **Note** : You can change the Keras backend to use GPU instead of CPU by changing `tensorflow-cpu==2.2.0` in `requirements.txt` into `tensorflow==2.2.0`.
 * Run the web-app using `python app.py`. You can access them on your browser using `localhost:8050`.
 
