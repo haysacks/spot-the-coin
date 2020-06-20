@@ -83,7 +83,7 @@ We develop the web application using [Dash Plotly](https://plotly.com/dash/) and
   **Note** : You can change the Keras backend to use GPU instead of CPU by changing `tensorflow-cpu==2.2.0` in `requirements.txt` into `tensorflow==2.2.0`.
 * Run the web-app using `python app.py`. You can access them on your browser using `localhost:8050`.
 
-The deployed web-app can be accessed on [spotthecoin.herokuapp.com](https://spotthecoin.herokuapp.com).
+The deployed web-app can be accessed on [spot-the-coin.et.r.appspot.com](https://spot-the-coin.et.r.appspot.com/) (improved version) or [spotthecoin.herokuapp.com](https://spotthecoin.herokuapp.com).
 
 ## Model and TFLite files
 
