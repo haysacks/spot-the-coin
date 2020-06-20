@@ -15,6 +15,7 @@ This project makes use of the following libraries:
 * Keras
 * Jupyter Notebook
 * Google Colab
+* Dash Plotly (for the *web-app*)
 
 ## About the project
 This project aims to improve the accuracy of a MobileNetV2 model through knowledge distillation, where the class probabilites from a pre-trained larger model (teacher model) are used to train a smaller model (student model) [1]. The teacher model used here is an ensemble taking the average prediction of 3 models, namely:
@@ -72,9 +73,24 @@ Our Android application is a modification of the repos [ML Kit Showcase App with
 The APK build of the app can also be found in [Releases](https://github.com/haysacks/spot-the-coin/releases).
 
 ### Running the website
-TBA
+We develop the web application using [Dash Plotly](https://plotly.com/dash/) and use both API from [Rates API](https://ratesapi.io/) and [Currency Converter API](https://www.currencyconverterapi.com/) to convert the currency in the coin. The Keras backend is using Tensorflow-CPU as the library size is much smaller to reduce the *slug size* in Heroku. These are the steps to build and run the web-app locally:
+
+- Close this repo locally
+
+  ```
+  git clone https://github.com/haysacks/spot-the-coin
+  ```
+
+- Access the folder `web-app` and install all the required library in the `requirements.txt` using `pip install -r requirements.txt`.
+
+  **Note** : You can change the Keras backend to use GPU instead of CPU by changing `tensorflow-cpu==2.2.0` in `requirements.txt` into `tensorflow==2.2.0`.
+
+- Run the web-app using `python app.py`. You can access them on your browser using `localhost:8050`.
+
+The deployed web-app can be accessed on [spotthecoin.herokuapp.com](spotthecoin.herokuapp.com).
 
 ## Model and TFLite files
+
 The files for each of the Keras models (in .h5 and .tflite) can be found in this Drive folder:
 https://drive.google.com/drive/folders/1ObSUM7Yn11DGDR3IHNIZiFvY04LSnXns?usp=sharing
 
