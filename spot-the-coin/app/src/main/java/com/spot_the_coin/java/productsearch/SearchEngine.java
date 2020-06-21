@@ -116,8 +116,11 @@ public class SearchEngine {
                           String confidence = String.format("%.2f", (100 * recognition.getConfidence()));
                           String countryId = details.getString("country_id");
                           String imageUrl = FLAG_URL + countryId.charAt(0) + "/" + countryId + ".gif";
+                          double value = details.getDouble("amount");
+                          String currencyId = details.getString("currency_id");
                           productList.add(new Product(imageUrl, name,
-                                  currency + "\nConfidence: " + confidence + "%"));
+                                  currency + "\nConfidence: " + confidence + "%",
+                                  value, currencyId));
                       } catch (JSONException e) {
                           e.printStackTrace();
                       }

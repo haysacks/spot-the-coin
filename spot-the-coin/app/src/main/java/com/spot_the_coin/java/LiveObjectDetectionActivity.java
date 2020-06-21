@@ -28,8 +28,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.PopupWindow;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -51,6 +54,7 @@ import com.spot_the_coin.java.env.Logger;
 import com.spot_the_coin.java.objectdetection.MultiObjectProcessor;
 import com.spot_the_coin.java.objectdetection.ProminentObjectProcessor;
 import com.spot_the_coin.java.productsearch.BottomSheetScrimView;
+import com.spot_the_coin.java.productsearch.PopupWindowActivity;
 import com.spot_the_coin.java.productsearch.Product;
 import com.spot_the_coin.java.productsearch.ProductAdapter;
 import com.spot_the_coin.java.productsearch.SearchEngine;
@@ -318,7 +322,25 @@ public class LiveObjectDetectionActivity extends AppCompatActivity implements On
                 getResources()
                     .getQuantityString(
                         R.plurals.bottom_sheet_title, productList.size(), productList.size()));
-            productRecyclerView.setAdapter(new ProductAdapter(productList));
+            ProductAdapter productAdapter = new ProductAdapter(productList);
+            productAdapter.setOnItemClickListener(new ProductAdapter.ClickListener() {
+                @Override
+                public void onItemClick(int position, View v) {
+                    Intent intent = new Intent(LiveObjectDetectionActivity.this, PopupWindowActivity.class);
+                    Product product = productList.get(position);
+                    intent.putExtra("imageUrl", product.getImageUrl());
+                    intent.putExtra("title", product.getTitle());
+                    intent.putExtra("subtitle", product.getSubtitle());
+                    intent.putExtra("value", product.getValue());
+                    intent.putExtra("currencyId", product.getCurrencyId());
+                    intent.addFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                    LiveObjectDetectionActivity.this.startActivity(intent);
+                }
+            });
+            productRecyclerView.setAdapter(productAdapter);
             slidingSheetUpFromHiddenState = true;
             bottomSheetBehavior.setPeekHeight(preview.getHeight() / 2);
             bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);

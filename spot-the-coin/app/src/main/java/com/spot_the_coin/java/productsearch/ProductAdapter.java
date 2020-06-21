@@ -19,6 +19,7 @@ package com.spot_the_coin.java.productsearch;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -31,39 +32,54 @@ import java.util.List;
 
 /** Presents the list of product items from cloud product search. */
 public class ProductAdapter extends Adapter<ProductViewHolder> {
+    private static ClickListener clickListener;
 
-  static class ProductViewHolder extends RecyclerView.ViewHolder {
-
-    static ProductViewHolder create(ViewGroup parent) {
-      View view =
-          LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item, parent, false);
-      return new ProductViewHolder(view);
+    public void setOnItemClickListener(ClickListener clickListener) {
+        ProductAdapter.clickListener = clickListener;
     }
 
-    private final ImageView imageView;
-    private final TextView titleView;
-    private final TextView subtitleView;
-    private final int imageSize;
-
-    private ProductViewHolder(View view) {
-      super(view);
-      imageView = view.findViewById(R.id.product_image);
-      titleView = view.findViewById(R.id.product_title);
-      subtitleView = view.findViewById(R.id.product_subtitle);
-      imageSize = view.getResources().getDimensionPixelOffset(R.dimen.product_item_image_size);
+    public interface ClickListener {
+        void onItemClick(int position, View v);
     }
 
-    void bindProduct(Product product) {
-      imageView.setImageDrawable(null);
-      if (!TextUtils.isEmpty(product.imageUrl)) {
-        new ImageDownloadTask(imageView, imageSize).execute(product.imageUrl);
-      } else {
-        imageView.setImageResource(R.drawable.logo_google_cloud);
-      }
-      titleView.setText(product.title);
-      subtitleView.setText(product.subtitle);
+    static class ProductViewHolder extends RecyclerView.ViewHolder implements OnClickListener {
+
+        static ProductViewHolder create(ViewGroup parent) {
+          View view =
+              LayoutInflater.from(parent.getContext()).inflate(R.layout.product_item, parent, false);
+          return new ProductViewHolder(view);
+        }
+
+        private final ImageView imageView;
+        private final TextView titleView;
+        private final TextView subtitleView;
+        private final int imageSize;
+
+        private ProductViewHolder(View view) {
+          super(view);
+          view.setOnClickListener(this);
+          imageView = view.findViewById(R.id.product_image);
+          titleView = view.findViewById(R.id.product_title);
+          subtitleView = view.findViewById(R.id.product_subtitle);
+          imageSize = view.getResources().getDimensionPixelOffset(R.dimen.product_item_image_size);
+        }
+
+        void bindProduct(Product product) {
+          imageView.setImageDrawable(null);
+          if (!TextUtils.isEmpty(product.imageUrl)) {
+            new ImageDownloadTask(imageView, imageSize).execute(product.imageUrl);
+          } else {
+            imageView.setImageResource(R.drawable.logo_google_cloud);
+          }
+          titleView.setText(product.title);
+          subtitleView.setText(product.subtitle);
+        }
+
+        @Override
+        public void onClick(View view) {
+            clickListener.onItemClick(getAdapterPosition(), view);
+        }
     }
-  }
 
   private final List<Product> productList;
 

@@ -1,53 +1,403 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Spot The Coin</string>
+    <string name="app_name">Spot The Coin</string>
 
-  <string name="mode_odt_live_title">Live Camera</string>
-  <string name="mode_odt_live_subtitle">Identify a coin from the detected objects in a live camera.</string>
-  <string name="mode_odt_static_title">Static Image</string>
-  <string name="mode_odt_static_subtitle">Identify one or more coins from a provided image.</string>
-  <string name="settings_title">Spot The Coin Settings</string>
-  <string name="cd_settings_button">Settings</string>
-  <string name="cd_close_button">Back</string>
-  <string name="cd_flash_button">Toggle camera flash</string>
-  <string name="cd_photo_library_button">Upload image</string>
-  <string name="prompt_point_at_an_object">Point your camera at a coin</string>
-  <string name="prompt_hold_camera_steady">Keep camera still for a moment</string>
-  <string name="prompt_move_camera_closer">Move closer to search</string>
-  <string name="prompt_searching">Identifying&#8230;</string>
-  <string name="product_search_button">Identify coin</string>
-  <plurals name="bottom_sheet_title">
-    <item quantity="one">Possible match found</item>
-    <item quantity="other">Possible matches found</item>
-  </plurals>
-  <string name="static_image_prompt_detected_no_results">No matches found</string>
-  <string name="static_image_prompt_detected_results">Tap on a dot to inspect</string>
-  <string name="static_image_card_no_result_title">No match found</string>
-  <string name="static_image_card_no_result_subtitle"></string>
-  <string name="static_image_preview_card_subtitle">+ more matches</string>
+    <string name="mode_odt_live_title">Live Camera</string>
+    <string name="mode_odt_live_subtitle">Identify a coin from the detected objects in a live camera.</string>
+    <string name="mode_odt_static_title">Static Image</string>
+    <string name="mode_odt_static_subtitle">Identify one or more coins from a provided image.</string>
+    <string name="settings_title">Live Camera Settings</string>
+    <string name="cd_settings_button">Settings</string>
+    <string name="cd_close_button">Back</string>
+    <string name="cd_flash_button">Toggle camera flash</string>
+    <string name="cd_photo_library_button">Upload image</string>
+    <string name="prompt_point_at_an_object">Point your camera at a coin</string>
+    <string name="prompt_hold_camera_steady">Keep camera still for a moment</string>
+    <string name="prompt_move_camera_closer">Move closer to search</string>
+    <string name="prompt_searching">Identifying&#8230;</string>
+    <string name="product_search_button">Identify coin</string>
+    <plurals name="bottom_sheet_title">
+        <item quantity="one">Possible match found</item>
+        <item quantity="other">Possible matches found</item>
+    </plurals>
+    <string name="static_image_prompt_detected_no_results">No matches found</string>
+    <string name="static_image_prompt_detected_results">Tap on a dot to inspect</string>
+    <string name="static_image_card_no_result_title">No match found</string>
+    <string name="static_image_card_no_result_subtitle"></string>
+    <string name="static_image_preview_card_subtitle">+ more matches</string>
 
-  <!-- Strings for camera settings. -->
-  <string name="pref_category_camera">Camera</string>
-  <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
-  <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
-  <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_camera">Camera</string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs</string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts</string>
+    <string name="pref_title_rear_camera_preview_size">Rear camera preview size</string>
 
-  <!-- Strings for object detection settings. -->
-  <string name="pref_category_object_detection">Object detection</string>
-  <string name="pref_key_object_detector_enable_multiple_objects" translatable="false">odemo</string>
-  <string name="pref_title_object_detector_enable_multiple_objects">Enable multiple objects</string>
-  <string name="pref_key_object_detector_enable_classification" translatable="false">odec</string>
-  <string name="pref_title_object_detector_enable_classification">Enable classification</string>
+    <!-- Strings for object detection settings. -->
+    <string name="pref_category_object_detection">Object detection</string>
+    <string name="pref_key_object_detector_enable_multiple_objects" translatable="false">odemo</string>
+    <string name="pref_title_object_detector_enable_multiple_objects">Enable multiple objects</string>
+    <string name="pref_key_object_detector_enable_classification" translatable="false">odec</string>
+    <string name="pref_title_object_detector_enable_classification">Enable classification</string>
 
-  <!-- Strings for product search settings. -->
-  <string name="pref_category_product_search">Coin identification</string>
-  <string name="pref_key_enable_auto_search" translatable="false">pkeas</string>
-  <string name="pref_title_enable_auto_search">Enable auto identify</string>
-  <string name="pref_key_confirmation_time_in_manual_search" translatable="false">ctims</string>
-  <string name="pref_title_confirmation_time_in_manual_search">Confirmation time in manual identify</string>
-  <string name="pref_summary_confirmation_time_in_manual_search">Ranges from 100ms to 1000ms</string>
-  <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias</string>
-  <string name="pref_title_confirmation_time_in_auto_search">Confirmation time in auto identify</string>
-  <string name="pref_summary_confirmation_time_in_auto_search">Ranges from 500ms to 2000ms</string>
+    <!-- Strings for product search settings. -->
+    <string name="pref_category_product_search">Coin identification</string>
+    <string name="pref_key_enable_auto_search" translatable="false">pkeas</string>
+    <string name="pref_title_enable_auto_search">Enable auto identify</string>
+    <string name="pref_key_confirmation_time_in_manual_search" translatable="false">ctims</string>
+    <string name="pref_title_confirmation_time_in_manual_search">Manual confirmation time</string>
+    <string name="pref_summary_confirmation_time_in_manual_search">Ranges from 100ms to 1000ms</string>
+    <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias</string>
+    <string name="pref_title_confirmation_time_in_auto_search">Auto confirmation time</string>
+    <string name="pref_summary_confirmation_time_in_auto_search">Ranges from 500ms to 2000ms</string>
+
+    <!-- Strings for coin pop-up window. -->
+    <string name="pref_coin_value">Coin Value</string>
+    <string name="pref_total_value">Total Value</string>
+    <string name="pref_add_button">Add</string>
+    <string name="pref_reset_button">Reset</string>
+    <string name="pref_refresh_button">Refresh exchange rate</string>
+
+    <string-array name="currency_id_array">
+        <item>AED</item>
+        <item>AFN</item>
+        <item>ALL</item>
+        <item>AMD</item>
+        <item>ANG</item>
+        <item>AOA</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BDT</item>
+        <item>BGN</item>
+        <item>BHD</item>
+        <item>BIF</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BTC</item>
+        <item>BTN</item>
+        <item>BWP</item>
+        <item>BYN</item>
+        <item>BZD</item>
+        <item>CAD</item>
+        <item>CDF</item>
+        <item>CHF</item>
+        <item>CLF</item>
+        <item>CLP</item>
+        <item>CNH</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUC</item>
+        <item>CUP</item>
+        <item>CVE</item>
+        <item>CZK</item>
+        <item>DJF</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>DZD</item>
+        <item>EGP</item>
+        <item>ERN</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GEL</item>
+        <item>GGP</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>GMD</item>
+        <item>GNF</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HTG</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IQD</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LSL</item>
+        <item>LYD</item>
+        <item>MAD</item>
+        <item>MDL</item>
+        <item>MGA</item>
+        <item>MKD</item>
+        <item>MMK</item>
+        <item>MNT</item>
+        <item>MOP</item>
+        <item>MRO</item>
+        <item>MRU</item>
+        <item>MUR</item>
+        <item>MVR</item>
+        <item>MWK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NGN</item>
+        <item>NIO</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PGK</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RSD</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>SAR</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SDG</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SHP</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SRD</item>
+        <item>SSP</item>
+        <item>STD</item>
+        <item>STN</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>SZL</item>
+        <item>THB</item>
+        <item>TJS</item>
+        <item>TMT</item>
+        <item>TND</item>
+        <item>TOP</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TWD</item>
+        <item>TZS</item>
+        <item>UAH</item>
+        <item>UGX</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VES</item>
+        <item>VND</item>
+        <item>VUV</item>
+        <item>WST</item>
+        <item>XAF</item>
+        <item>XAG</item>
+        <item>XAU</item>
+        <item>XCD</item>
+        <item>XDR</item>
+        <item>XOF</item>
+        <item>XPD</item>
+        <item>XPF</item>
+        <item>XPT</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZMW</item>
+        <item>ZWL</item>
+    </string-array>
+
+<!--    <string-array name="currency_id_array">-->
+<!--        <item>AED</item>-->
+<!--        <item>AFN</item>-->
+<!--        <item>ALL</item>-->
+<!--        <item>AMD</item>-->
+<!--        <item>ANG</item>-->
+<!--        <item>AOA</item>-->
+<!--        <item>ARS</item>-->
+<!--        <item>AUD</item>-->
+<!--        <item>AWG</item>-->
+<!--        <item>AZN</item>-->
+<!--        <item>BAM</item>-->
+<!--        <item>BBD</item>-->
+<!--        <item>BDT</item>-->
+<!--        <item>BGN</item>-->
+<!--        <item>BHD</item>-->
+<!--        <item>BIF</item>-->
+<!--        <item>BMD</item>-->
+<!--        <item>BND</item>-->
+<!--        <item>BOB</item>-->
+<!--        <item>BRL</item>-->
+<!--        <item>BSD</item>-->
+<!--        <item>BTC</item>-->
+<!--        <item>BTN</item>-->
+<!--        <item>BWP</item>-->
+<!--        <item>BYN</item>-->
+<!--        <item>BYR</item>-->
+<!--        <item>BZD</item>-->
+<!--        <item>CAD</item>-->
+<!--        <item>CDF</item>-->
+<!--        <item>CHF</item>-->
+<!--        <item>CLF</item>-->
+<!--        <item>CLP</item>-->
+<!--        <item>CNY</item>-->
+<!--        <item>COP</item>-->
+<!--        <item>CRC</item>-->
+<!--        <item>CUC</item>-->
+<!--        <item>CUP</item>-->
+<!--        <item>CVE</item>-->
+<!--        <item>CZK</item>-->
+<!--        <item>DJF</item>-->
+<!--        <item>DKK</item>-->
+<!--        <item>DOP</item>-->
+<!--        <item>DZD</item>-->
+<!--        <item>EGP</item>-->
+<!--        <item>ERN</item>-->
+<!--        <item>ETB</item>-->
+<!--        <item>EUR</item>-->
+<!--        <item>FJD</item>-->
+<!--        <item>FKP</item>-->
+<!--        <item>GBP</item>-->
+<!--        <item>GEL</item>-->
+<!--        <item>GGP</item>-->
+<!--        <item>GHS</item>-->
+<!--        <item>GIP</item>-->
+<!--        <item>GMD</item>-->
+<!--        <item>GNF</item>-->
+<!--        <item>GTQ</item>-->
+<!--        <item>GYD</item>-->
+<!--        <item>HKD</item>-->
+<!--        <item>HNL</item>-->
+<!--        <item>HRK</item>-->
+<!--        <item>HTG</item>-->
+<!--        <item>HUF</item>-->
+<!--        <item>IDR</item>-->
+<!--        <item>ILS</item>-->
+<!--        <item>IMP</item>-->
+<!--        <item>INR</item>-->
+<!--        <item>IQD</item>-->
+<!--        <item>IRR</item>-->
+<!--        <item>ISK</item>-->
+<!--        <item>JEP</item>-->
+<!--        <item>JMD</item>-->
+<!--        <item>JOD</item>-->
+<!--        <item>JPY</item>-->
+<!--        <item>KES</item>-->
+<!--        <item>KGS</item>-->
+<!--        <item>KHR</item>-->
+<!--        <item>KMF</item>-->
+<!--        <item>KPW</item>-->
+<!--        <item>KRW</item>-->
+<!--        <item>KWD</item>-->
+<!--        <item>KYD</item>-->
+<!--        <item>KZT</item>-->
+<!--        <item>LAK</item>-->
+<!--        <item>LBP</item>-->
+<!--        <item>LKR</item>-->
+<!--        <item>LRD</item>-->
+<!--        <item>LSL</item>-->
+<!--        <item>LVL</item>-->
+<!--        <item>LYD</item>-->
+<!--        <item>MAD</item>-->
+<!--        <item>MDL</item>-->
+<!--        <item>MGA</item>-->
+<!--        <item>MKD</item>-->
+<!--        <item>MMK</item>-->
+<!--        <item>MNT</item>-->
+<!--        <item>MOP</item>-->
+<!--        <item>MRO</item>-->
+<!--        <item>MUR</item>-->
+<!--        <item>MVR</item>-->
+<!--        <item>MWK</item>-->
+<!--        <item>MXN</item>-->
+<!--        <item>MYR</item>-->
+<!--        <item>MZN</item>-->
+<!--        <item>NAD</item>-->
+<!--        <item>NGN</item>-->
+<!--        <item>NIO</item>-->
+<!--        <item>NOK</item>-->
+<!--        <item>NPR</item>-->
+<!--        <item>NZD</item>-->
+<!--        <item>OMR</item>-->
+<!--        <item>PAB</item>-->
+<!--        <item>PEN</item>-->
+<!--        <item>PGK</item>-->
+<!--        <item>PHP</item>-->
+<!--        <item>PKR</item>-->
+<!--        <item>PLN</item>-->
+<!--        <item>PYG</item>-->
+<!--        <item>QAR</item>-->
+<!--        <item>RON</item>-->
+<!--        <item>RSD</item>-->
+<!--        <item>RUB</item>-->
+<!--        <item>RWF</item>-->
+<!--        <item>SAR</item>-->
+<!--        <item>SBD</item>-->
+<!--        <item>SCR</item>-->
+<!--        <item>SDG</item>-->
+<!--        <item>SEK</item>-->
+<!--        <item>SGD</item>-->
+<!--        <item>SHP</item>-->
+<!--        <item>SLL</item>-->
+<!--        <item>SOS</item>-->
+<!--        <item>SRD</item>-->
+<!--        <item>STD</item>-->
+<!--        <item>SVC</item>-->
+<!--        <item>SYP</item>-->
+<!--        <item>SZL</item>-->
+<!--        <item>THB</item>-->
+<!--        <item>TJS</item>-->
+<!--        <item>TMT</item>-->
+<!--        <item>TND</item>-->
+<!--        <item>TOP</item>-->
+<!--        <item>TRY</item>-->
+<!--        <item>TTD</item>-->
+<!--        <item>TWD</item>-->
+<!--        <item>TZS</item>-->
+<!--        <item>UAH</item>-->
+<!--        <item>UG</item>x-->
+<!--        <item>USD</item>-->
+<!--        <item>UYU</item>-->
+<!--        <item>UZS</item>-->
+<!--        <item>VEF</item>-->
+<!--        <item>VND</item>-->
+<!--        <item>VUV</item>-->
+<!--        <item>WST</item>-->
+<!--        <item>XAF</item>-->
+<!--        <item>XAG</item>-->
+<!--        <item>XCD</item>-->
+<!--        <item>XDR</item>-->
+<!--        <item>XOF</item>-->
+<!--        <item>XPF</item>-->
+<!--        <item>YER</item>-->
+<!--        <item>ZAR</item>-->
+<!--        <item>ZMK</item>-->
+<!--        <item>ZMW</item>-->
+<!--        <item>ZWL</item>-->
+<!--    </string-array>-->
 
 </resources>

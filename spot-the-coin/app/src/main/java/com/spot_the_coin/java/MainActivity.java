@@ -23,6 +23,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +32,20 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.volley.Cache;
+import com.android.volley.Network;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.BasicNetwork;
+import com.android.volley.toolbox.DiskBasedCache;
+import com.android.volley.toolbox.HurlStack;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.spot_the_coin.R;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 /** Entry activity to select the detection mode. */
 public class MainActivity extends AppCompatActivity {
@@ -59,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
     modeRecyclerView.setHasFixedSize(true);
     modeRecyclerView.setLayoutManager(new LinearLayoutManager(this));
     modeRecyclerView.setAdapter(new ModeItemAdapter(DetectionMode.values()));
+
+    AmountHelper.startLoadExchangeRateJSON(this);
   }
 
   @Override

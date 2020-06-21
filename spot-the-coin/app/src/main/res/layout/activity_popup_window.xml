@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/product_item_padding"
+    android:paddingStart="@dimen/product_item_padding"
+    android:paddingEnd="@dimen/product_item_padding">
+
+    <ImageView
+        android:id="@+id/coin_image"
+        android:layout_width="@dimen/product_item_image_size"
+        android:layout_height="@dimen/product_item_image_size"
+        android:layout_marginEnd="@dimen/product_item_image_margin_end"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/coin_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/coin_image"
+        android:layout_toEndOf="@id/coin_image"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/product_item_title_size"/>
+
+    <TextView
+        android:id="@+id/coin_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/coin_title"
+        android:layout_toEndOf="@id/coin_image"
+        android:maxLines="2"
+        android:textColor="@color/lighter_grey"
+        android:textSize="@dimen/product_item_subtitle_size"/>
+
+    <View
+        android:id="@+id/coin_padding"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/product_item_padding"
+        android:layout_below="@+id/coin_image"
+        android:layout_marginBottom="14dp"
+        android:background="@color/lighter_grey"/>
+
+    <TextView
+        android:id="@+id/coin_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/pref_coin_value"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/coin_padding"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/coin_value_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coin_value_label">
+
+        <TextView
+            android:id="@+id/coin_value"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@id/coin_value_dropdown"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:textColor="@color/lighter_grey"
+            android:inputType="none"/>
+
+        <Spinner
+            android:id="@+id/coin_value_dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/total_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/pref_total_value"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/coin_value_layout"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/total_value_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_value_label">
+
+        <TextView
+            android:id="@+id/total_value"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:textSize="14sp"
+            android:layout_toLeftOf="@id/total_value_dropdown"
+            android:textColor="@color/lighter_grey"
+            android:inputType="none"/>
+
+        <Spinner
+            android:id="@+id/total_value_dropdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/top_button_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2.0dp"
+        android:paddingLeft="5.0dp"
+        android:paddingRight="5.0dp"
+        android:paddingBottom="2.0dp"
+        android:layout_below="@id/total_value_layout">
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="onClickAddButton"
+            android:text="@string/pref_add_button" />
+
+        <View
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2" />
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:onClick="onClickResetButton"
+            android:text="@string/pref_reset_button" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/coin_button_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_button_layout"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="10sp"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_button_layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3.0dp"
+        android:paddingLeft="5.0dp"
+        android:paddingRight="5.0dp"
+        android:paddingBottom="2.0dp"
+        android:layout_below="@id/coin_button_padding">
+
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="0.0dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClickRefreshButton"
+            android:layout_weight="1.0"
+            android:text="@string/pref_refresh_button" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bottom_button_layout"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="10sp"/>
+
+</RelativeLayout>

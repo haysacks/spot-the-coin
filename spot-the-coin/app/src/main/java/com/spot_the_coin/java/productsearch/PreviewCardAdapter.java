@@ -16,6 +16,7 @@
 
 package com.spot_the_coin.java.productsearch;
 
+import android.annotation.SuppressLint;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;

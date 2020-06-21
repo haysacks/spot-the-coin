@@ -34,6 +34,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -41,24 +42,27 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.chip.Chip;
 import com.google.common.collect.ImmutableList;
-import com.spot_the_coin.R;
-import com.spot_the_coin.java.productsearch.BottomSheetScrimView;
 import com.google.firebase.ml.vision.FirebaseVision;
 import com.google.firebase.ml.vision.common.FirebaseVisionImage;
 import com.google.firebase.ml.vision.objects.FirebaseVisionObject;
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetector;
 import com.google.firebase.ml.vision.objects.FirebaseVisionObjectDetectorOptions;
+import com.spot_the_coin.R;
 import com.spot_the_coin.java.objectdetection.DetectedObject;
 import com.spot_the_coin.java.objectdetection.StaticObjectDotView;
+import com.spot_the_coin.java.productsearch.BottomSheetScrimView;
+import com.spot_the_coin.java.productsearch.PopupWindowActivity;
 import com.spot_the_coin.java.productsearch.PreviewCardAdapter;
 import com.spot_the_coin.java.productsearch.Product;
 import com.spot_the_coin.java.productsearch.ProductAdapter;
 import com.spot_the_coin.java.productsearch.SearchEngine;
 import com.spot_the_coin.java.productsearch.SearchEngine.SearchResultListener;
 import com.spot_the_coin.java.productsearch.SearchedObject;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -192,7 +196,25 @@ public class StaticObjectDetectionActivity extends AppCompatActivity
         getResources()
             .getQuantityString(
                 R.plurals.bottom_sheet_title, productList.size(), productList.size()));
-    productRecyclerView.setAdapter(new ProductAdapter(productList));
+    ProductAdapter productAdapter = new ProductAdapter(productList);
+    productAdapter.setOnItemClickListener(new ProductAdapter.ClickListener() {
+        @Override
+        public void onItemClick(int position, View v) {
+            Intent intent = new Intent(StaticObjectDetectionActivity.this, PopupWindowActivity.class);
+            Product product = productList.get(position);
+            intent.putExtra("imageUrl", product.getImageUrl());
+            intent.putExtra("title", product.getTitle());
+            intent.putExtra("subtitle", product.getSubtitle());
+            intent.putExtra("value", product.getValue());
+            intent.putExtra("currencyId", product.getCurrencyId());
+            intent.addFlags(Intent.FLAG_DEBUG_LOG_RESOLUTION);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            StaticObjectDetectionActivity.this.startActivity(intent);
+        }
+    });
+    productRecyclerView.setAdapter(productAdapter);
     bottomSheetBehavior.setPeekHeight(((View) inputImageView.getParent()).getHeight() / 2);
     bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
   }
