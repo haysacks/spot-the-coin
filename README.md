@@ -4,6 +4,10 @@ This repository makes use of the image dataset provided in: https://www.kaggle.c
 
 We use the images provided in the dataset to train a CNN to classify coin images based on their currency and values.
 
+## Contributors
+* [Madeleine Jose Josodipuro](https://github.com/haysacks)
+* [Muhamad Mustain](https://github.com/musmeong)
+
 ## Dependencies
 This project makes use of the following libraries:
 * NumPy
@@ -60,7 +64,7 @@ The performance of the base MobileNetV2 model without knowledge distillation can
 To perform knowledge distillation to train a student MobileNetV2 model, run `knowledge_distillation.ipynb` in the folder `knowledge-distillation`. The variable `teacher_model_path` is to be defined as the path of the pre-trained ensemble model from before.
 
 ### Running the Android application
-Our Android application is a modification of the repos [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Bangkit Image Classifier Example](https://github.com/esafirm/bangkit-image-classifier-example). These are the steps to build and run the app:
+Our Android application is a modification of the repos [ML Kit Showcase App with Material Design](https://github.com/firebase/mlkit-material-android) and [Bangkit Image Classifier Example](https://github.com/esafirm/bangkit-image-classifier-example) with the [Open Currency Converter API](https://openexchangerates.org/) to convert the currency of the coin. These are the steps to build and run the app:
 * Clone this repo locally
   ```
   git clone https://github.com/haysacks/spot-the-coin
@@ -73,7 +77,7 @@ Our Android application is a modification of the repos [ML Kit Showcase App with
 The APK build of the app can also be found in [Releases](https://github.com/haysacks/spot-the-coin/releases).
 
 ### Running the website
-We develop the web application using [Dash Plotly](https://plotly.com/dash/) and use both API from [Rates API](https://ratesapi.io/) and [Currency Converter API](https://www.currencyconverterapi.com/) to convert the currency in the coin. The Keras backend is using Tensorflow-CPU as the library size is much smaller to reduce the *slug size* in Heroku. These are the steps to build and run the web-app locally:
+We develop the web application using [Dash Plotly](https://plotly.com/dash/) and use both API from [Rates API](https://ratesapi.io/) and [Currency Converter API](https://www.currencyconverterapi.com/) to convert the currency of the coin. The Keras backend is using Tensorflow-CPU as the library size is much smaller to reduce the *slug size* in Heroku. These are the steps to build and run the web-app locally:
 * Clone this repo locally
   ```
   git clone https://github.com/haysacks/spot-the-coin
