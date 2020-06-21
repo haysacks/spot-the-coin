@@ -22,17 +22,23 @@ public class Product {
   final String imageUrl;
   final String title;
   final String subtitle;
+  final double value;
+  final String currencyId;
 
-  Product(String imageUrl, String title, String subtitle) {
+  Product(String imageUrl, String title, String subtitle, double value, String currencyId) {
     this.imageUrl = imageUrl;
     this.title = title;
     this.subtitle = subtitle;
+    this.value = value;
+    this.currencyId = currencyId;
   }
 
   public Product(Product product) {
       this.imageUrl = product.getImageUrl();
       this.title = product.getTitle();
       this.subtitle = product.getSubtitle();
+      this.value = product.getValue();
+      this.currencyId = product.getCurrencyId();
   }
 
   public String getImageUrl() {
@@ -46,4 +52,8 @@ public class Product {
   public String getSubtitle() {
     return subtitle;
   }
+
+  public double getValue() { return value; }
+
+  public String getCurrencyId() { return currencyId; }
 }
