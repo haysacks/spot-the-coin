@@ -23,6 +23,8 @@ import com.spot_the_coin.java.AmountHelper;
 
 import org.json.JSONException;
 
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.util.Arrays;
 import java.util.List;
 
@@ -240,12 +242,12 @@ public class PopupWindowActivity extends Activity {
 
     private void setCoinValueText(double value) {
         TextView coinValueText = findViewById(R.id.coin_value);
-        coinValueText.setText(String.format("%.2f", value));
+        coinValueText.setText(String.format("%,.2f", value));
     }
 
     private void setTotalValueText(double value) {
         TextView totalValueText = findViewById(R.id.total_value);
-        totalValueText.setText(String.format("%.2f", value));
+        totalValueText.setText(String.format("%,.2f", value));
     }
 
 //    private void convertExchangeRate(String oldCurrencyId, String newCurrencyId, int valueToUpdate) {
